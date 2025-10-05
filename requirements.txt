@@ -3,10 +3,10 @@ uvicorn==0.23.2
 pydantic==2.3.0
 python-multipart==0.0.6
 transformers==4.31.0
---find-links https://download.pytorch.org/whl/torch_stable.html
-torch==2.0.1+cpu
-torchvision==0.15.2+cpu
-torchaudio==2.0.2+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu
+torchvision==0.16.1+cpu
+torchaudio==2.5.1+cpu
 sentence-transformers==2.2.2
 faiss-cpu==1.7.4
 Pillow==9.5.0
