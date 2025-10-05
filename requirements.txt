@@ -1,23 +1,21 @@
 # Transformers / NLP
-transformers==4.46.0
-tokenizers==0.20.3
-sentence-transformers==3.3.1
-sentencepiece==0.2.0
+transformers>=4.40.0
+sentence-transformers>=3.0.0
+sentencepiece>=0.2.0
 langdetect==1.0.9
 
 # Core web framework
-fastapi==0.115.6
-uvicorn[standard]==0.32.1
-pydantic==2.11.10
-python-multipart==0.0.20
+fastapi>=0.100.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.0.0
+python-multipart>=0.0.9
 
-# PyTorch CPU versions (Render safe)
+# PyTorch CPU versions
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.5.0+cpu
 torchvision==0.21.0+cpu
-torchaudio==2.6.0+cpu
 
 # FAISS & numerical
-faiss-cpu==1.9.0.post1
-Pillow>=11.0.0
-numpy>=1.26.0,<2.0.0
+faiss-cpu>=1.7.0
+Pillow>=10.0.0
+numpy>=1.24.0,<2.0.0
