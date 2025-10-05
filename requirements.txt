@@ -2,9 +2,8 @@
 pip>=25.2
 setuptools>=80.0
 wheel>=0.45.1
-
-# Prebuilt Rust wheel
 tokenizers==0.13.3
+transformers==4.33.2
 sentencepiece==0.1.99
 
 # Core web framework
