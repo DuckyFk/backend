@@ -1,3 +1,8 @@
+# Build tools
+pip>=25.2
+setuptools>=82.0
+wheel>=0.45.1
+
 # Core web framework
 fastapi==0.103.1
 uvicorn==0.23.2
@@ -10,7 +15,7 @@ sentence-transformers==2.2.2
 sentencepiece==0.1.99
 langdetect==1.0.9
 
-# PyTorch CPU versions
+# PyTorch CPU versions (precompiled wheels)
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.7.1+cpu
 torchvision==0.22.1+cpu
@@ -18,5 +23,5 @@ torchaudio==2.7.1+cpu
 faiss-cpu==1.12.0
 
 # Imaging & numerical
-Pillow>=10.2.0
-numpy==1.24.3
+Pillow>=11.0.0   # Avoid building from source
+numpy>=1.26.0    # Precompiled wheels for Python 3.13
