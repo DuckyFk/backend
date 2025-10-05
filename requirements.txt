@@ -1,5 +1,4 @@
 # Transformers / NLP
-tokenizers==0.13.3
 transformers==4.33.2
 sentence-transformers==2.2.2
 sentencepiece==0.1.99
