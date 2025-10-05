@@ -2,20 +2,18 @@
 pip>=25.2
 setuptools>=80.0
 wheel>=0.45.1
+# Transformers / NLP
 tokenizers==0.13.3
 transformers==4.33.2
+sentence-transformers==2.2.2
 sentencepiece==0.1.99
+langdetect==1.0.9
 
 # Core web framework
 fastapi==0.103.1
 uvicorn==0.23.2
 pydantic==2.11.10
 python-multipart==0.0.6
-
-# NLP / Transformers
-sentence-transformers==2.2.2
-sentencepiece==0.1.99
-langdetect==1.0.9
 
 # PyTorch CPU versions (precompiled wheels)
 --extra-index-url https://download.pytorch.org/whl/cpu
