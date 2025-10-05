@@ -1,6 +1,6 @@
 # Build tools
 pip>=25.2
-setuptools>=82.0
+setuptools>=80.0
 wheel>=0.45.1
 
 # Core web framework
