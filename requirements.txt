@@ -15,7 +15,7 @@ python-multipart==0.0.20
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.5.0+cpu
 torchvision==0.21.0+cpu
-torchaudio==2.5.0+cpu
+torchaudio==2.6.0+cpu
 
 # FAISS & numerical
 faiss-cpu==1.9.0.post1
